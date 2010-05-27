@@ -90,4 +90,13 @@ a.signup_button {
 #footer .navigation {
   float: none;
 }
+/* Debug box */
+#debug {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #F5A9F2;
+}
 
