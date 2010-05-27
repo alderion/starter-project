@@ -30,6 +30,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v2.2.2, /home/pta/.gem/ruby/1.8/gems/activerecord-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v2.2.2, /home/pta/.gem/ruby/1.8/gems/actionmailer-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v2.2.2, /home/pta/.gem/ruby/1.8/gems/activeresource-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v2.2.2, /home/pta/.gem/ruby/1.8/gems/activesupport-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.4, /var/lib/gems/1.8/gems/rake-0.8.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v2.2.2, /home/pta/.gem/ruby/1.8/gems/actionpack-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.2.2, /var/lib/gems/1.8/gems/rails-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.5, /var/lib/gems/1.8/gems/sqlite3-ruby-1.2.5)" level="application" />
   </component>
 </module>
 
