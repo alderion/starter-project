@@ -11,7 +11,7 @@ describe PagesController do
 
     it "should have the correct title" do
       get 'about'
-      response.should have_tag("title", "About")
+      response.should have_tag("title", APP_NAME + " - About")
     end
   end
 
@@ -23,7 +23,19 @@ describe PagesController do
 
     it "should have the correct title" do
       get 'contact'
-      response.should have_tag("title", "Contact")
+      response.should have_tag("title", APP_NAME + " - Contact")
+    end
+  end
+
+  describe "GET 'help'" do
+    it "should be successful" do
+      get 'help'
+      response.should be_success
+    end
+
+    it "should have the correct title" do
+      get 'help'
+      response.should have_tag("title", APP_NAME + " - Help")
     end
   end
 
@@ -35,7 +47,7 @@ describe PagesController do
 
     it "should have the correct title" do
       get 'home'
-      response.should have_tag("title", "Home")
+      response.should have_tag("title", APP_NAME + " - Home")
     end
   end
 end

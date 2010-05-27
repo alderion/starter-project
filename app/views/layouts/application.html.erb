@@ -1,8 +1,18 @@
 <html>
   <head>
-    <title><%= @title %></title>
+    <title><%= title %></title>
+    <%= render :file => 'layouts/_stylesheets.html.erb' %>
+    
   </head>
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= render :file => 'layouts/_header.html.erb' %>
+
+      <div id="content" class="round">
+        <%= yield %>
+      </div>
+      <%= render :file => 'layouts/_footer.html.erb' %>
+      
+    </div>
   </body>
 </html>
