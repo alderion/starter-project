@@ -100,3 +100,9 @@ a.signup_button {
   background: #F5A9F2;
 }
 
+/* flash notice */
+#flash_notice {
+  background: #F8E0E0;
+  text-align: center;
+  width: 350px;
+}

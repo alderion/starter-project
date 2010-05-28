@@ -9,6 +9,9 @@
       <%= render :file => 'layouts/_header.html.erb' %>
 
       <div id="content" class="round">
+        <%- flash.each do |name, msg| -%>
+          <%= content_tag :div, msg, :id => "flash_#{name}", :class => "round" %>
+        <%- end -%>
         <%= yield %>
       </div>
       <%= render :file => 'layouts/_footer.html.erb' %>
